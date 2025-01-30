@@ -1,0 +1,29 @@
+React Query/Transact Query is powerful asynchronous state management for TS/JS Apps.
+    -- This is a data fetching library and helps us to fetch our data, manipulate our data
+    -- Features like caching, re fetching, pagination and more...
+
+- Create a react project with Vite(The Build Toolfor the Web)
+    ~ npm create vite@latest
+        ~ Please provide project name
+        ~ Please select a framework(React/Angular/Vue/Qwik/... etc.,)
+        ~ Please select a variant(TS/JS/React Router v7/...etc.,)
+
+    ~ Change the directory 
+        ~ cd <Project>
+    ~ install required packages
+        ~ npm install
+    ~ Run the solution
+        ~ npm run dev
+        ~ Once started running will give the URL for accessing
+            ~ http://localhost:<PortNumber>/
+        
+    ~ Remove all the unnecessary information from the project.
+
+- Please refer below link to know more about TanStack Query
+    ~ https://tanstack.com/query/latest/docs/framework/react/overview
+
+    ~ Install React/TanStack Query
+        ~ npm i @tanstack/react-query - npm
+        ~ yarn add @tanstack/react-query - yarn
+
+    

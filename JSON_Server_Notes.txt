@@ -1,0 +1,23 @@
+JSON-Server is an npm(Node Package Manager) module that allows you to create a mock REST API using just a JSON file. 
+It is highly useful for prototyping, testing, or building front-end applications without needing a complex back-end infrastructure.
+~ Data is transferred in JSON(JavaScript Object Notation) format between client and server using HTTP methods 
+    like GET, POST, PUT, PATCH, and DELETE.
+
+~ Install JSON server globally
+    ~ npm install -g json-server
+
+~ Create a JSON Data File
+
+~ Start JSON-Server
+    ~ json-server --watch <File name with complete path>
+
+Note:
+    - While starting the JSON server, If you have multiple objects at the top layer it may throw an error. 
+    In that scenario try to maitain one object until soft running then add remaning objects.
+
+Example: Testing Endpoints
+
+~ GET => http://localhost:3000/<EndPoint>
+~ GET => http://localhost:3000/<EndPoint>/<ID>
+~ POST => http://localhost:3000/<EndPoint>
+    JSON Body => {}
